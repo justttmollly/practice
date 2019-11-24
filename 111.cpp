@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main (){
+    int n;
+    cin >> n;
+
+    for ( int i = 0 ; i < n; i++ )
+    {
+        for ( int j = 0; j < 2* n; j++ )
+        {
+            if ( i == 0)
+            {
+                cout << "A";
+            }
+            else if ( i == n-1)
+            {
+                cout << "A";
+            }
+            else if ( j == 0)
+            {
+                cout << "A";
+            }
+            else if ( j == ( (2*n) - 1  ) )
+            {
+                cout << "A";
+            }
+            else cout << "B";
+        }
+    }
+}
